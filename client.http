@@ -1,57 +1,15 @@
+GET http://localhost:4000/visitor
+Content-Type: application/json
+###
 POST http://localhost:4000/update-verify
 Content-Type: application/json
 
 {
-    "name": "Fadh",
-    "verify": "verified"
+  "name": "yat",
+  "verify": "verified"
 }
-//done
 ###
-GET http://localhost:4000/visitor/check/:_id
-Content-Type: application/json
-
-{
-    "_id":  "6496d7d38d64ea733641daa4"
-    //"name":"Fadhila"
-}
-
-
-
-###
-
-PATCH http://localhost:4000/visitor/update/:_id
-Content-Type: application/json
-
-{
-  //"_id": "6496d7d38d64ea733641daa5",
-  "update":{"name": "John Doe"},
-  
-}
-
-
-
-###
-DELETE http://localhost:4000/visitor/delete/6496d7d38d64ea733641daa
-Content-Type: application/json
-//done
-
-
-
-###
-GET http://localhost:4000/visitor
-Content-Type: application/json
-//done
-//{
-   // "_id":  "6496d7d38d64ea733641daa5"
-    //"name":"Fadhila"
-//}
-###
-//new
-GET http://localhost:4000/visitor
-Content-Type: application/json
-###
-
-GET http://localhost:4000/visitor/check/6496d1c28d64ea733641daa4
+GET http://localhost:4000/visitor/check/6498109b8d64ea733641daad
 Content-Type: application/json
 
 ###
@@ -59,9 +17,9 @@ PATCH http://localhost:4000/visitor/update/6496d1c28d64ea733641daa4
 Content-Type: application/json
 
 {
-  "name": "John"
+  "name": "didi"
 }
 
 ###
-DELETE http://localhost:4000/visitor/delete/6497e1998d64ea733641daa8
+DELETE http://localhost:4000/visitor/delete/6498109b8d64ea733641daad
 Content-Type: application/json
